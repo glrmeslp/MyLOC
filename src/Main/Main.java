@@ -29,7 +29,14 @@ public class Main {
 			
 			cl.add(pessoa);
 			
+			
+			
 					
+		}
+		
+		for (int i =0; i<cl.size(); i++ ) {
+			System.out.print("nome: " + cl.get(i).getNome() + "\ncpf: " + cl.get(i).getCpf() );
+			System.out.print("\n-----------------------------------------\n");
 		}
 	}
 
